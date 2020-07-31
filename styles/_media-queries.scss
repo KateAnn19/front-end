@@ -134,12 +134,12 @@
   #safety-header .slogan-container .header-button a button {
     font-size: 1.2rem;
   }
-  /*Body*/
+  /*Safety About*/
   #safety-about .about-container .about-text .about-heading {
     font-size: 2rem;
   }
-  #safety-about .about-container .about-text .about-subheading {
-    font-size: 1.2rem;
+  #homepage-about .about-container .about-text .about-subheading {
+    font-size: 1.3rem;
   }
   #homepage-about .safety-list {
     font-size: 1.2rem;
@@ -266,26 +266,17 @@
   #safety-header .slogan-container .header-button a button {
     font-size: 1rem;
   }
-  /*Body*/
+  //Safety About
   #safety-about .about-container .about-text .about-heading {
     font-size: 1.6rem;
   }
-  #safety-about .about-container .about-text .about-subheading {
+  #homepage-about .about-container .about-text .about-subheading {
+    font-size: 1.1rem;
+  }
+  #homepage-about .safety-list {
     font-size: 1rem;
   }
-  #safety-about .about-container .about-images img {
-    height: 175px;
-    width: 175px;
-  }
-  #safety-about .about-container .about-images .about-location .location {
-    font-size: 1rem;
-  }
-  #safety-about .about-container .about-images .about-time .time {
-    font-size: 1rem;
-  }
-  #safety-about .about-container .about-images .about-features .features-text {
-    font-size: 1rem;
-  }
+  /*Safety CTA*/
   #safety-call-to-action .cta-text h3 {
     font-size: 1.6rem;
   }
@@ -352,7 +343,7 @@
 }
 
 @media (max-width: 360px) {
-  /*Header*/
+  /*Homepage Header*/
   #homepage-header .logo-nav-container {
     flex-wrap: wrap;
   }
@@ -369,7 +360,7 @@
   #homepage-header .logo-nav-container .nav-container a {
     font-size: 0.8rem;
   }
-  /*Header*/
+  /*Safety Header*/
   #safety-header .logo-nav-container {
     flex-wrap: wrap;
   }
@@ -386,7 +377,11 @@
   #safety-header .logo-nav-container .nav-container a {
     font-size: 0.8rem;
   }
-  /*Header*/
+  //Safety About
+  #homepage-about .safety-list {
+    font-size: 0.8rem;
+  }
+  /*About Header*/
   #about-header .logo-nav-container {
     flex-wrap: wrap;
   }
