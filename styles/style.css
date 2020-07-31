@@ -488,8 +488,63 @@ table {
 
 @media (max-width: 360px) {
   /*Header*/
-  /*Body*/
+  #homepage-header .logo-nav-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #homepage-header .logo-nav-container .logo {
+    font-size: 1.2rem;
+    padding: 3%;
+  }
+  #homepage-header .logo-nav-container .logo i {
+    font-size: 1rem;
+  }
+  #homepage-header .logo-nav-container .nav-container {
+    padding: 0 0 3% 0;
+  }
+  #homepage-header .logo-nav-container .nav-container a {
+    font-size: 0.8rem;
+  }
+  /*Header*/
+  #safety-header .logo-nav-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #safety-header .logo-nav-container .logo {
+    font-size: 1.2rem;
+    padding: 3%;
+  }
+  #safety-header .logo-nav-container .logo i {
+    font-size: 1rem;
+  }
+  #safety-header .logo-nav-container .nav-container {
+    padding: 0 0 3% 0;
+  }
+  #safety-header .logo-nav-container .nav-container a {
+    font-size: 0.8rem;
+  }
+  /*Header*/
+  #about-header .logo-nav-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #about-header .logo-nav-container .logo {
+    font-size: 1.2rem;
+    padding: 3%;
+  }
+  #about-header .logo-nav-container .logo i {
+    font-size: 1rem;
+  }
+  #about-header .logo-nav-container .nav-container {
+    padding: 0 0 3% 0;
+  }
+  #about-header .logo-nav-container .nav-container a {
+    font-size: 0.8rem;
+  }
   /*Footer*/
+  #footer .footer-container {
+    font-size: 0.5rem;
+  }
 }
 
 #homepage-header {
@@ -1213,8 +1268,63 @@ table {
 
 @media (max-width: 360px) {
   /*Header*/
-  /*Body*/
+  #homepage-header .logo-nav-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #homepage-header .logo-nav-container .logo {
+    font-size: 1.2rem;
+    padding: 3%;
+  }
+  #homepage-header .logo-nav-container .logo i {
+    font-size: 1rem;
+  }
+  #homepage-header .logo-nav-container .nav-container {
+    padding: 0 0 3% 0;
+  }
+  #homepage-header .logo-nav-container .nav-container a {
+    font-size: 0.8rem;
+  }
+  /*Header*/
+  #safety-header .logo-nav-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #safety-header .logo-nav-container .logo {
+    font-size: 1.2rem;
+    padding: 3%;
+  }
+  #safety-header .logo-nav-container .logo i {
+    font-size: 1rem;
+  }
+  #safety-header .logo-nav-container .nav-container {
+    padding: 0 0 3% 0;
+  }
+  #safety-header .logo-nav-container .nav-container a {
+    font-size: 0.8rem;
+  }
+  /*Header*/
+  #about-header .logo-nav-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #about-header .logo-nav-container .logo {
+    font-size: 1.2rem;
+    padding: 3%;
+  }
+  #about-header .logo-nav-container .logo i {
+    font-size: 1rem;
+  }
+  #about-header .logo-nav-container .nav-container {
+    padding: 0 0 3% 0;
+  }
+  #about-header .logo-nav-container .nav-container a {
+    font-size: 0.8rem;
+  }
   /*Footer*/
+  #footer .footer-container {
+    font-size: 0.5rem;
+  }
 }
 
 #footer {
@@ -1870,7 +1980,62 @@ h3 {
 
 @media (max-width: 360px) {
   /*Header*/
-  /*Body*/
+  #homepage-header .logo-nav-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #homepage-header .logo-nav-container .logo {
+    font-size: 1.2rem;
+    padding: 3%;
+  }
+  #homepage-header .logo-nav-container .logo i {
+    font-size: 1rem;
+  }
+  #homepage-header .logo-nav-container .nav-container {
+    padding: 0 0 3% 0;
+  }
+  #homepage-header .logo-nav-container .nav-container a {
+    font-size: 0.8rem;
+  }
+  /*Header*/
+  #safety-header .logo-nav-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #safety-header .logo-nav-container .logo {
+    font-size: 1.2rem;
+    padding: 3%;
+  }
+  #safety-header .logo-nav-container .logo i {
+    font-size: 1rem;
+  }
+  #safety-header .logo-nav-container .nav-container {
+    padding: 0 0 3% 0;
+  }
+  #safety-header .logo-nav-container .nav-container a {
+    font-size: 0.8rem;
+  }
+  /*Header*/
+  #about-header .logo-nav-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #about-header .logo-nav-container .logo {
+    font-size: 1.2rem;
+    padding: 3%;
+  }
+  #about-header .logo-nav-container .logo i {
+    font-size: 1rem;
+  }
+  #about-header .logo-nav-container .nav-container {
+    padding: 0 0 3% 0;
+  }
+  #about-header .logo-nav-container .nav-container a {
+    font-size: 0.8rem;
+  }
   /*Footer*/
+  #footer .footer-container {
+    font-size: 0.5rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
