@@ -1,6 +1,10 @@
-//Import
+//Imports
 
-@import "./imports";
+@import "./variables";
+@import "./mixins";
+@import "./css-reset";
+@import "./header";
+@import "./footer";
 
 //General
 
@@ -27,7 +31,7 @@ h3 {
     width: 100%;
     @include flexCenter(column, center);
     .about-text {
-      @include aboutText();
+      @include aboutHeading();
     }
     .about-images {
       @include flexCenter(row, center);
@@ -57,6 +61,15 @@ h3 {
       img {
         @include aboutImage();
       }
+    }
+  }
+  .safety-list {
+    padding: 2%;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.5;
+    span {
+      font-weight: 600;
     }
   }
 }
@@ -102,3 +115,5 @@ h3 {
     padding: 0 0 0 5%;
   }
 }
+
+@import "./media-queries";
