@@ -145,6 +145,18 @@ table {
   #about-header .slogan-container {
     margin: 9% 0;
   }
+  #homepage-about .about-container .about-text .about-heading {
+    font-size: 3rem;
+  }
+  #homepage-about .about-container .about-text .about-subheading {
+    font-size: 2.5rem;
+  }
+  #homepage-about .safety-list {
+    font-size: 2rem;
+  }
+  #homepage-call-to-action .cta-text h3 {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 1366px) {
@@ -157,6 +169,9 @@ table {
   }
   #about-header .slogan-container {
     margin: 15% 0;
+  }
+  #homepage-about .safety-list {
+    font-size: 1.7rem;
   }
 }
 
@@ -257,31 +272,8 @@ table {
   #safety-about .about-container .about-text .about-subheading {
     font-size: 1.2rem;
   }
-  #safety-about .about-container .about-images {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  #safety-about .about-container .about-images img {
-    height: 200px;
-    width: 200px;
-  }
-  #safety-about .about-container .about-images .about-location {
-    margin: 2%;
-  }
-  #safety-about .about-container .about-images .about-location .location {
-    font-size: 1.3rem;
-  }
-  #homepage-about .about-container .about-images .about-time {
-    margin: 2%;
-  }
-  #safety-about .about-container .about-images .about-time .time {
-    font-size: 1.3rem;
-  }
-  #safety-about .about-container .about-images .about-features {
-    margin: 2%;
-  }
-  #safety-about .about-container .about-images .about-features .features-text {
-    font-size: 1.3rem;
+  #homepage-about .safety-list {
+    font-size: 1.2rem;
   }
   #safety-call-to-action .cta-text h3 {
     font-size: 2rem;
@@ -925,6 +917,18 @@ table {
   #about-header .slogan-container {
     margin: 9% 0;
   }
+  #homepage-about .about-container .about-text .about-heading {
+    font-size: 3rem;
+  }
+  #homepage-about .about-container .about-text .about-subheading {
+    font-size: 2.5rem;
+  }
+  #homepage-about .safety-list {
+    font-size: 2rem;
+  }
+  #homepage-call-to-action .cta-text h3 {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 1366px) {
@@ -937,6 +941,9 @@ table {
   }
   #about-header .slogan-container {
     margin: 15% 0;
+  }
+  #homepage-about .safety-list {
+    font-size: 1.7rem;
   }
 }
 
@@ -1037,31 +1044,8 @@ table {
   #safety-about .about-container .about-text .about-subheading {
     font-size: 1.2rem;
   }
-  #safety-about .about-container .about-images {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  #safety-about .about-container .about-images img {
-    height: 200px;
-    width: 200px;
-  }
-  #safety-about .about-container .about-images .about-location {
-    margin: 2%;
-  }
-  #safety-about .about-container .about-images .about-location .location {
-    font-size: 1.3rem;
-  }
-  #homepage-about .about-container .about-images .about-time {
-    margin: 2%;
-  }
-  #safety-about .about-container .about-images .about-time .time {
-    font-size: 1.3rem;
-  }
-  #safety-about .about-container .about-images .about-features {
-    margin: 2%;
-  }
-  #safety-about .about-container .about-images .about-features .features-text {
-    font-size: 1.3rem;
+  #homepage-about .safety-list {
+    font-size: 1.2rem;
   }
   #safety-call-to-action .cta-text h3 {
     font-size: 2rem;
@@ -1562,6 +1546,17 @@ h3 {
   border-top-right-radius: 10%;
 }
 
+#homepage-about .safety-list {
+  padding: 2%;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#homepage-about .safety-list span {
+  font-weight: 600;
+}
+
 #homepage-call-to-action .cta-text {
   background-color: black;
   padding: 5% 0 5% 0;
@@ -1637,6 +1632,18 @@ h3 {
   #about-header .slogan-container {
     margin: 9% 0;
   }
+  #homepage-about .about-container .about-text .about-heading {
+    font-size: 3rem;
+  }
+  #homepage-about .about-container .about-text .about-subheading {
+    font-size: 2.5rem;
+  }
+  #homepage-about .safety-list {
+    font-size: 2rem;
+  }
+  #homepage-call-to-action .cta-text h3 {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 1366px) {
@@ -1649,6 +1656,9 @@ h3 {
   }
   #about-header .slogan-container {
     margin: 15% 0;
+  }
+  #homepage-about .safety-list {
+    font-size: 1.7rem;
   }
 }
 
@@ -1749,31 +1759,8 @@ h3 {
   #safety-about .about-container .about-text .about-subheading {
     font-size: 1.2rem;
   }
-  #safety-about .about-container .about-images {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  #safety-about .about-container .about-images img {
-    height: 200px;
-    width: 200px;
-  }
-  #safety-about .about-container .about-images .about-location {
-    margin: 2%;
-  }
-  #safety-about .about-container .about-images .about-location .location {
-    font-size: 1.3rem;
-  }
-  #homepage-about .about-container .about-images .about-time {
-    margin: 2%;
-  }
-  #safety-about .about-container .about-images .about-time .time {
-    font-size: 1.3rem;
-  }
-  #safety-about .about-container .about-images .about-features {
-    margin: 2%;
-  }
-  #safety-about .about-container .about-images .about-features .features-text {
-    font-size: 1.3rem;
+  #homepage-about .safety-list {
+    font-size: 1.2rem;
   }
   #safety-call-to-action .cta-text h3 {
     font-size: 2rem;

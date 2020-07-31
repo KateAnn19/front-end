@@ -63,6 +63,15 @@ h3 {
       }
     }
   }
+  .safety-list {
+    padding: 2%;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.5;
+    span {
+      font-weight: 600;
+    }
+  }
 }
 
 #homepage-call-to-action {

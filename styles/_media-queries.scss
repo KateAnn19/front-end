@@ -11,6 +11,20 @@
   #about-header .slogan-container {
     margin: 9% 0;
   }
+  //About
+  #homepage-about .about-container .about-text .about-heading {
+    font-size: 3rem;
+  }
+  #homepage-about .about-container .about-text .about-subheading {
+    font-size: 2.5rem;
+  }
+  #homepage-about .safety-list {
+    font-size: 2rem;
+  }
+  //CTA
+  #homepage-call-to-action .cta-text h3 {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 1366px) {
@@ -23,6 +37,10 @@
   }
   #about-header .slogan-container {
     margin: 15% 0;
+  }
+  //About
+  #homepage-about .safety-list {
+    font-size: 1.7rem;
   }
 }
 
@@ -123,30 +141,8 @@
   #safety-about .about-container .about-text .about-subheading {
     font-size: 1.2rem;
   }
-  #safety-about .about-container .about-images {
-    flex-wrap: wrap;
-  }
-  #safety-about .about-container .about-images img {
-    height: 200px;
-    width: 200px;
-  }
-  #safety-about .about-container .about-images .about-location {
-    margin: 2%;
-  }
-  #safety-about .about-container .about-images .about-location .location {
-    font-size: 1.3rem;
-  }
-  #homepage-about .about-container .about-images .about-time {
-    margin: 2%;
-  }
-  #safety-about .about-container .about-images .about-time .time {
-    font-size: 1.3rem;
-  }
-  #safety-about .about-container .about-images .about-features {
-    margin: 2%;
-  }
-  #safety-about .about-container .about-images .about-features .features-text {
-    font-size: 1.3rem;
+  #homepage-about .safety-list {
+    font-size: 1.2rem;
   }
   #safety-call-to-action .cta-text h3 {
     font-size: 2rem;
@@ -390,8 +386,8 @@
   #safety-header .logo-nav-container .nav-container a {
     font-size: 0.8rem;
   }
-   /*Header*/
-   #about-header .logo-nav-container {
+  /*Header*/
+  #about-header .logo-nav-container {
     flex-wrap: wrap;
   }
   #about-header .logo-nav-container .logo {
