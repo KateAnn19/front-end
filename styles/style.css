@@ -280,11 +280,7 @@ table {
   #safety-about .about-container .about-images .about-features {
     margin: 2%;
   }
-  #safety-about
-.about-container
-.about-images
-.about-features
-.features-text {
+  #safety-about .about-container .about-images .about-features .features-text {
     font-size: 1.3rem;
   }
   #safety-call-to-action .cta-text h3 {
@@ -326,6 +322,167 @@ table {
   /*Footer*/
   #footer .footer-container {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  /*Header*/
+  #homepage-header .logo-nav-container .logo {
+    font-size: 1.3rem;
+  }
+  #homepage-header .logo-nav-container .logo i {
+    font-size: 1rem;
+    padding: 5%;
+  }
+  #homepage-header .logo-nav-container .nav-container a {
+    padding: 2%;
+    font-size: 0.8rem;
+  }
+  #homepage-header .logo-nav-container .nav-container a:hover {
+    font-size: 1rem;
+  }
+  #homepage-header .slogan-container .slogan h2 {
+    margin: 35% 0 0 0;
+    font-size: 1.6rem;
+  }
+  #homepage-header .slogan-container .header-button a button {
+    font-size: 1rem;
+  }
+  /*Body*/
+  #homepage-about .about-container .about-text .about-heading {
+    font-size: 1.6rem;
+  }
+  #homepage-about .about-container .about-text .about-subheading {
+    font-size: 1rem;
+  }
+  #homepage-about .about-container .about-images img {
+    height: 175px;
+    width: 175px;
+  }
+  #homepage-about .about-container .about-images .about-location .location {
+    font-size: 1rem;
+  }
+  #homepage-about .about-container .about-images .about-time .time {
+    font-size: 1rem;
+  }
+  #homepage-about
+.about-container
+.about-images
+.about-features
+.features-text {
+    font-size: 1rem;
+  }
+  #homepage-call-to-action .cta-text h3 {
+    font-size: 1.6rem;
+  }
+  #homepage-call-to-action .cta-text button {
+    font-size: 1rem;
+  }
+  /*Header*/
+  #safety-header .logo-nav-container .logo {
+    font-size: 1.3rem;
+  }
+  #safety-header .logo-nav-container .logo i {
+    font-size: 1rem;
+    padding: 5%;
+  }
+  #safety-header .logo-nav-container .nav-container a {
+    padding: 2%;
+    font-size: 0.8rem;
+  }
+  #safety-header .logo-nav-container .nav-container a:hover {
+    font-size: 1rem;
+  }
+  #safety-header {
+    height: 60vh;
+  }
+  #safety-header .slogan-container .slogan h2 {
+    margin: 100% 0 0 0;
+    font-size: 1.6rem;
+  }
+  #safety-header .slogan-container .header-button a button {
+    font-size: 1rem;
+  }
+  /*Body*/
+  #safety-about .about-container .about-text .about-heading {
+    font-size: 1.6rem;
+  }
+  #safety-about .about-container .about-text .about-subheading {
+    font-size: 1rem;
+  }
+  #safety-about .about-container .about-images img {
+    height: 175px;
+    width: 175px;
+  }
+  #safety-about .about-container .about-images .about-location .location {
+    font-size: 1rem;
+  }
+  #safety-about .about-container .about-images .about-time .time {
+    font-size: 1rem;
+  }
+  #safety-about .about-container .about-images .about-features .features-text {
+    font-size: 1rem;
+  }
+  #safety-call-to-action .cta-text h3 {
+    font-size: 1.6rem;
+  }
+  #safety-call-to-action .cta-text button {
+    font-size: 1rem;
+  }
+  /*Header*/
+  #about-header .logo-nav-container .logo {
+    font-size: 1.3rem;
+  }
+  #about-header .logo-nav-container .logo i {
+    font-size: 1rem;
+    padding: 5%;
+  }
+  #about-header .logo-nav-container .nav-container a {
+    padding: 2%;
+    font-size: 0.8rem;
+  }
+  #about-header .logo-nav-container .nav-container a:hover {
+    font-size: 1rem;
+  }
+  #about-header {
+    height: 60vh;
+  }
+  #about-header .slogan-container .slogan h2 {
+    margin: 70% 0 0 0;
+    font-size: 1.6rem;
+  }
+  #about-header .slogan-container .header-button a button {
+    font-size: 1rem;
+  }
+  /*Body*/
+  #about-about .about-container .about-text .about-heading {
+    font-size: 1.6rem;
+  }
+  #about-about .about-container .about-text .about-subheading {
+    font-size: 1rem;
+  }
+  .person {
+    margin: 2%;
+  }
+  .person img {
+    height: 50px;
+    width: 100px;
+  }
+  .person h4 {
+    font-size: 1rem;
+  }
+  .person .bio-container {
+    font-size: 1rem;
+  }
+  #about-call-to-action .cta-text h3 {
+    font-size: 1.6rem;
+  }
+  #about-call-to-action .cta-text button {
+    font-size: 1rem;
+  }
+  /*Footer*/
+  #footer .footer-container {
+    font-size: 0.7rem;
   }
 }
 
@@ -848,11 +1005,7 @@ table {
   #safety-about .about-container .about-images .about-features {
     margin: 2%;
   }
-  #safety-about
-.about-container
-.about-images
-.about-features
-.features-text {
+  #safety-about .about-container .about-images .about-features .features-text {
     font-size: 1.3rem;
   }
   #safety-call-to-action .cta-text h3 {
@@ -894,6 +1047,167 @@ table {
   /*Footer*/
   #footer .footer-container {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  /*Header*/
+  #homepage-header .logo-nav-container .logo {
+    font-size: 1.3rem;
+  }
+  #homepage-header .logo-nav-container .logo i {
+    font-size: 1rem;
+    padding: 5%;
+  }
+  #homepage-header .logo-nav-container .nav-container a {
+    padding: 2%;
+    font-size: 0.8rem;
+  }
+  #homepage-header .logo-nav-container .nav-container a:hover {
+    font-size: 1rem;
+  }
+  #homepage-header .slogan-container .slogan h2 {
+    margin: 35% 0 0 0;
+    font-size: 1.6rem;
+  }
+  #homepage-header .slogan-container .header-button a button {
+    font-size: 1rem;
+  }
+  /*Body*/
+  #homepage-about .about-container .about-text .about-heading {
+    font-size: 1.6rem;
+  }
+  #homepage-about .about-container .about-text .about-subheading {
+    font-size: 1rem;
+  }
+  #homepage-about .about-container .about-images img {
+    height: 175px;
+    width: 175px;
+  }
+  #homepage-about .about-container .about-images .about-location .location {
+    font-size: 1rem;
+  }
+  #homepage-about .about-container .about-images .about-time .time {
+    font-size: 1rem;
+  }
+  #homepage-about
+.about-container
+.about-images
+.about-features
+.features-text {
+    font-size: 1rem;
+  }
+  #homepage-call-to-action .cta-text h3 {
+    font-size: 1.6rem;
+  }
+  #homepage-call-to-action .cta-text button {
+    font-size: 1rem;
+  }
+  /*Header*/
+  #safety-header .logo-nav-container .logo {
+    font-size: 1.3rem;
+  }
+  #safety-header .logo-nav-container .logo i {
+    font-size: 1rem;
+    padding: 5%;
+  }
+  #safety-header .logo-nav-container .nav-container a {
+    padding: 2%;
+    font-size: 0.8rem;
+  }
+  #safety-header .logo-nav-container .nav-container a:hover {
+    font-size: 1rem;
+  }
+  #safety-header {
+    height: 60vh;
+  }
+  #safety-header .slogan-container .slogan h2 {
+    margin: 100% 0 0 0;
+    font-size: 1.6rem;
+  }
+  #safety-header .slogan-container .header-button a button {
+    font-size: 1rem;
+  }
+  /*Body*/
+  #safety-about .about-container .about-text .about-heading {
+    font-size: 1.6rem;
+  }
+  #safety-about .about-container .about-text .about-subheading {
+    font-size: 1rem;
+  }
+  #safety-about .about-container .about-images img {
+    height: 175px;
+    width: 175px;
+  }
+  #safety-about .about-container .about-images .about-location .location {
+    font-size: 1rem;
+  }
+  #safety-about .about-container .about-images .about-time .time {
+    font-size: 1rem;
+  }
+  #safety-about .about-container .about-images .about-features .features-text {
+    font-size: 1rem;
+  }
+  #safety-call-to-action .cta-text h3 {
+    font-size: 1.6rem;
+  }
+  #safety-call-to-action .cta-text button {
+    font-size: 1rem;
+  }
+  /*Header*/
+  #about-header .logo-nav-container .logo {
+    font-size: 1.3rem;
+  }
+  #about-header .logo-nav-container .logo i {
+    font-size: 1rem;
+    padding: 5%;
+  }
+  #about-header .logo-nav-container .nav-container a {
+    padding: 2%;
+    font-size: 0.8rem;
+  }
+  #about-header .logo-nav-container .nav-container a:hover {
+    font-size: 1rem;
+  }
+  #about-header {
+    height: 60vh;
+  }
+  #about-header .slogan-container .slogan h2 {
+    margin: 70% 0 0 0;
+    font-size: 1.6rem;
+  }
+  #about-header .slogan-container .header-button a button {
+    font-size: 1rem;
+  }
+  /*Body*/
+  #about-about .about-container .about-text .about-heading {
+    font-size: 1.6rem;
+  }
+  #about-about .about-container .about-text .about-subheading {
+    font-size: 1rem;
+  }
+  .person {
+    margin: 2%;
+  }
+  .person img {
+    height: 50px;
+    width: 100px;
+  }
+  .person h4 {
+    font-size: 1rem;
+  }
+  .person .bio-container {
+    font-size: 1rem;
+  }
+  #about-call-to-action .cta-text h3 {
+    font-size: 1.6rem;
+  }
+  #about-call-to-action .cta-text button {
+    font-size: 1rem;
+  }
+  /*Footer*/
+  #footer .footer-container {
+    font-size: 0.7rem;
   }
 }
 
@@ -1348,11 +1662,7 @@ h3 {
   #safety-about .about-container .about-images .about-features {
     margin: 2%;
   }
-  #safety-about
-.about-container
-.about-images
-.about-features
-.features-text {
+  #safety-about .about-container .about-images .about-features .features-text {
     font-size: 1.3rem;
   }
   #safety-call-to-action .cta-text h3 {
@@ -1394,6 +1704,167 @@ h3 {
   /*Footer*/
   #footer .footer-container {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  /*Header*/
+  #homepage-header .logo-nav-container .logo {
+    font-size: 1.3rem;
+  }
+  #homepage-header .logo-nav-container .logo i {
+    font-size: 1rem;
+    padding: 5%;
+  }
+  #homepage-header .logo-nav-container .nav-container a {
+    padding: 2%;
+    font-size: 0.8rem;
+  }
+  #homepage-header .logo-nav-container .nav-container a:hover {
+    font-size: 1rem;
+  }
+  #homepage-header .slogan-container .slogan h2 {
+    margin: 35% 0 0 0;
+    font-size: 1.6rem;
+  }
+  #homepage-header .slogan-container .header-button a button {
+    font-size: 1rem;
+  }
+  /*Body*/
+  #homepage-about .about-container .about-text .about-heading {
+    font-size: 1.6rem;
+  }
+  #homepage-about .about-container .about-text .about-subheading {
+    font-size: 1rem;
+  }
+  #homepage-about .about-container .about-images img {
+    height: 175px;
+    width: 175px;
+  }
+  #homepage-about .about-container .about-images .about-location .location {
+    font-size: 1rem;
+  }
+  #homepage-about .about-container .about-images .about-time .time {
+    font-size: 1rem;
+  }
+  #homepage-about
+.about-container
+.about-images
+.about-features
+.features-text {
+    font-size: 1rem;
+  }
+  #homepage-call-to-action .cta-text h3 {
+    font-size: 1.6rem;
+  }
+  #homepage-call-to-action .cta-text button {
+    font-size: 1rem;
+  }
+  /*Header*/
+  #safety-header .logo-nav-container .logo {
+    font-size: 1.3rem;
+  }
+  #safety-header .logo-nav-container .logo i {
+    font-size: 1rem;
+    padding: 5%;
+  }
+  #safety-header .logo-nav-container .nav-container a {
+    padding: 2%;
+    font-size: 0.8rem;
+  }
+  #safety-header .logo-nav-container .nav-container a:hover {
+    font-size: 1rem;
+  }
+  #safety-header {
+    height: 60vh;
+  }
+  #safety-header .slogan-container .slogan h2 {
+    margin: 100% 0 0 0;
+    font-size: 1.6rem;
+  }
+  #safety-header .slogan-container .header-button a button {
+    font-size: 1rem;
+  }
+  /*Body*/
+  #safety-about .about-container .about-text .about-heading {
+    font-size: 1.6rem;
+  }
+  #safety-about .about-container .about-text .about-subheading {
+    font-size: 1rem;
+  }
+  #safety-about .about-container .about-images img {
+    height: 175px;
+    width: 175px;
+  }
+  #safety-about .about-container .about-images .about-location .location {
+    font-size: 1rem;
+  }
+  #safety-about .about-container .about-images .about-time .time {
+    font-size: 1rem;
+  }
+  #safety-about .about-container .about-images .about-features .features-text {
+    font-size: 1rem;
+  }
+  #safety-call-to-action .cta-text h3 {
+    font-size: 1.6rem;
+  }
+  #safety-call-to-action .cta-text button {
+    font-size: 1rem;
+  }
+  /*Header*/
+  #about-header .logo-nav-container .logo {
+    font-size: 1.3rem;
+  }
+  #about-header .logo-nav-container .logo i {
+    font-size: 1rem;
+    padding: 5%;
+  }
+  #about-header .logo-nav-container .nav-container a {
+    padding: 2%;
+    font-size: 0.8rem;
+  }
+  #about-header .logo-nav-container .nav-container a:hover {
+    font-size: 1rem;
+  }
+  #about-header {
+    height: 60vh;
+  }
+  #about-header .slogan-container .slogan h2 {
+    margin: 70% 0 0 0;
+    font-size: 1.6rem;
+  }
+  #about-header .slogan-container .header-button a button {
+    font-size: 1rem;
+  }
+  /*Body*/
+  #about-about .about-container .about-text .about-heading {
+    font-size: 1.6rem;
+  }
+  #about-about .about-container .about-text .about-subheading {
+    font-size: 1rem;
+  }
+  .person {
+    margin: 2%;
+  }
+  .person img {
+    height: 50px;
+    width: 100px;
+  }
+  .person h4 {
+    font-size: 1rem;
+  }
+  .person .bio-container {
+    font-size: 1rem;
+  }
+  #about-call-to-action .cta-text h3 {
+    font-size: 1.6rem;
+  }
+  #about-call-to-action .cta-text button {
+    font-size: 1rem;
+  }
+  /*Footer*/
+  #footer .footer-container {
+    font-size: 0.7rem;
   }
 }
 
